@@ -1,0 +1,28 @@
+{
+  "name": "CustomSelector",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "metro-react-native-babel-preset": "^0.54.1",
+    "native-base": "^2.12.1",
+    "react": "16.8.3",
+    "react-native": "0.59.9",
+    "react-native-gesture-handler": "^1.2.0",
+    "react-native-modal": "^11.0.1",
+    "react-native-numeric-input": "^1.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/runtime": "^7.4.5",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
